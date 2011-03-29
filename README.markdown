@@ -7,7 +7,7 @@ JQueryHelperBundle: Added jQuery support to Symfony2
 
 ### Add JQueryHelperBundle to your src/Bundle dir
 
-    git submodule add git://github.com/francisbesset/PackingMinifyBundle.git src/BeSimple/PackingMinifyBundle
+    git submodule add git://github.com/naydav/JQueryHelperBundle.git src/WC/JQueryHelperBundle
 
 ### Add JQueryHelperBundle to your application kernel
 
