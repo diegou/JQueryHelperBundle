@@ -1,6 +1,6 @@
 ЭТОТ БАНДЛ ЯВЛЯЕТЬСЯ ЭКСПЕРЕМЕНТАЛЬНЫМ
-Все вопросы в http://zendframework.ru/forum/index.php?topic=4313.msg29127
 ======================================================================
+Все вопросы в http://zendframework.ru/forum/index.php?topic=4313.msg29127
 
 
 JQueryHelperBundle: Added jQuery support to Symfony2
