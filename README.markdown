@@ -5,11 +5,11 @@ JQueryHelperBundle: Added jQuery support to Symfony2
 
 ## Installation
 
-### Add PackingMinifyBundle to your src/Bundle dir
+### Add JQueryHelperBundle to your src/Bundle dir
 
     git submodule add git://github.com/francisbesset/PackingMinifyBundle.git src/BeSimple/PackingMinifyBundle
 
-### Add PackingMinifyBundle to your application kernel
+### Add JQueryHelperBundle to your application kernel
 
     // app/AppKernel.php
     public function registerBundles()
@@ -21,7 +21,7 @@ JQueryHelperBundle: Added jQuery support to Symfony2
         );
     }
 
-### Register the BeSimple namespace
+### Register the WC namespace
 
     // app/autoload.php
     $loader->registerNamespaces(array(
