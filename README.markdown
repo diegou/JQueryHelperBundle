@@ -110,7 +110,7 @@ Example 2:
 Example 3:
     // twig action template
     {% block onload %}
-        {% jquery 'addOnLoad' %} $j.wcDashboardPages().avtivateIndex() {% jquery 'addOnLoadEnd' %}
+        {% jquery 'addOnLoad' %} $j.wcDashboard(); {% jquery 'addOnLoadEnd' %}
     {% endblock %}
 
     // twig layout
@@ -124,7 +124,7 @@ Example 3:
         <script type="text/javascript">
         //<![CDATA[
         $j(document).ready(function() {
-             $j.wcDashboard()
+             $j.wcDashboard();
         });
         //]]>
         </script>
