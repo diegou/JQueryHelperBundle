@@ -11,7 +11,7 @@
 namespace WC\JQueryHelperBundle\Twig\Extension;
 
 use WC\JQueryHelperBundle\JQuery\Api as jQueryApi,
-    WC\JQueryHelperBundle\Twig\TokenParser\JQueryTokenParser;
+    WC\JQueryHelperBundle\Twig\TokenParser\jQueryTokenParser;
 
 /**
  * Twig Extension for jQuery support.
@@ -20,6 +20,16 @@ use WC\JQueryHelperBundle\JQuery\Api as jQueryApi,
  */
 class jQueryExtension extends \Twig_Extension
 {
+    protected $container;
+    
+    public function __construct(\Symfony\Component\DependencyInjection\Container $container) {
+        $this->container = $container;
+    }
+    
+    public function getContainer() {
+        return $this->container;
+    }
+    
     /**
      * Returns the token parser instance to add to the existing list.
      *
@@ -42,4 +52,5 @@ class jQueryExtension extends \Twig_Extension
     {
         return 'jquery';
     }
+    
 }

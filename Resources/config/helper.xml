@@ -9,6 +9,7 @@
         <!-- T W I G   H E L P E R S -->
         <service id="twig.extension.jquery" class="WC\JQueryHelperBundle\Twig\Extension\jQueryExtension">
             <tag name="twig.extension" alias="jquery" />
+            <argument type="service" id="service_container" />
         </service>
 
         <!-- B U N D L E  I N T E R N A L  O B J E C T S-->

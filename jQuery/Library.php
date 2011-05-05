@@ -8,7 +8,7 @@
  * @license  http://www.gnu.org/licenses/gpl-3.0.html  GNU GPLv3
  */
 
-namespace WC\JQueryHelperBundle\JQuery;
+namespace WC\JQueryHelperBundle\jQuery;
 
 /**
  * Render javascript code for include library.

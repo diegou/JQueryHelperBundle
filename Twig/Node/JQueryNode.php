@@ -37,7 +37,7 @@ class JQueryNode extends \Twig_Node
     {
         $compiler
             ->addDebugInfo($this)
-            ->write("echo \$this->env->getExtension('templating')->getContainer()->get('jquery.api')->")
+            ->write("echo \$this->env->getExtension('jquery')->getContainer()->get('jquery.api')->")
             ->raw($this->getNode('method')->getAttribute('value'))
             ->raw("();\n");
         ;
